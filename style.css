@@ -27,16 +27,15 @@ button:hover {
     display: flex;
     justify-content: center;
 }
-/* Image grid styling */
+
 .image-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-columns: repeat(3, 1fr); 
     gap: 10px;
     max-width: 900px;
     margin: 0 auto;
   }
   
-  /* Image item styling */
   .image-item {
     position: relative;
     overflow: hidden;
@@ -48,15 +47,14 @@ button:hover {
     transition: transform 0.3s ease, filter 0.3s ease;
   }
   
-  /* Overlay styling */
   .overlay {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black overlay */
-    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,20 +65,19 @@ button:hover {
     cursor: pointer;
   }
   
-  /* Hover effect: scale and blur image, show overlay */
   .image-item:hover img {
-    transform: scale(1.1); /* Zooms the image */
-    filter: blur(3px); /* Adds a blur effect */
+    transform: scale(1.1); 
+    filter: blur(3px);
     
   }
   
   .image-item:hover .overlay {
-    opacity: 1; /* Shows overlay on hover */
+    opacity: 1; 
   }
 
 .footer {
     background-color: #000000;
-    color: #fff;
+    color: #ffffff;
     padding: 40px 20px;
     text-align: center;
   }
@@ -100,7 +97,7 @@ button:hover {
   }
   
   .footer-social a {
-    color: #fff;
+    color: #ffffff;
     font-size: 1.5rem;
     margin: 0 10px;
     transition: color 0.3s;
@@ -120,7 +117,7 @@ button:hover {
   }
   
   .footer-nav ul li a {
-    color: #ccc;
+    color: #cccccc;
     text-decoration: none;
     transition: color 0.3s;
   }
@@ -130,7 +127,7 @@ button:hover {
   }
   
   .footer-contact a {
-    color: #ccc;
+    color: #cccccc;
     text-decoration: none;
     transition: color 0.3s;
   }
@@ -149,7 +146,7 @@ button:hover {
     justify-content: space-between;
     padding: 20px;
     background-color: #000000; 
-    color: #fff;
+    color: #ffffff;
     margin-bottom: 80px;
   }
   
